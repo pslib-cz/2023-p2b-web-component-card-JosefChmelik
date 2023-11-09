@@ -1,0 +1,55 @@
+@import url(../fonts/style.css);
+
+html {
+    font-family: Jura, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(img/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card__container {
+    display: flex;
+    overflow: visible;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    margin-top: -8em;
+    border-radius: 100%;
+    margin-left: 4em;
+    border: .1em solid white;
+    height: 12em;
+    width: 12em;
+    box-shadow: .1rem .1rem .75rem .01rem #888888;
+}
+
+.header__name {
+    padding-bottom: .75em;
+    font-weight: bold;
+    border-bottom: 1.5px solid #000000;
+}
+
+.card {
+    padding: 1em;
+    background-color: white;
+    box-shadow: .5rem .2rem .9rem .2rem #888888;
+    width: 20em;
+    margin-top: 10em;
+}
+
+.icons {
+    padding-right: .75em;
+    font-size: 1.2em;
+}
+
+.card__header {
+    overflow: visible;
+}
+
+.icon-mobile {
+    color: red;
+}
